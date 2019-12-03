@@ -459,7 +459,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 118571774}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 26.339, y: 0.4, z: 0}
+  m_LocalPosition: {x: 22.35, y: -13.11, z: 0}
   m_LocalScale: {x: 1.65, y: 1.65, z: 1.65}
   m_Children: []
   m_Father: {fileID: 0}
@@ -615,8 +615,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   platformGenerationPoint: {fileID: 2128056515}
-  platformDistanceBetweenMin: 1
-  platformDistanceBetweenMax: 3
+  platformDistanceBetweenMin: 2
+  platformDistanceBetweenMax: 4
   platformPools:
   - {fileID: 575226446}
   - {fileID: 1243160277}
@@ -1663,7 +1663,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 885604865}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.7958374, y: -0.9919739, z: 0}
+  m_LocalPosition: {x: -16.51, y: 17.09, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2322,7 +2322,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 9
-  speedMutiplier: 1.05
+  speedMutiplier: 1.1
   speedIncreaseMilestone: 200
   jumpForce: 13
   jumpTime: 0.05
@@ -2450,7 +2450,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.78161895, g: 0.8679245, b: 0.06959773, a: 1}
+  m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -2461,7 +2461,7 @@ MonoBehaviour:
     m_Font: {fileID: 12800000, guid: 953b93fe42a809a4883028c26c97e878, type: 3}
     m_FontSize: 25
     m_FontStyle: 0
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 0
     m_MaxSize: 300
     m_Alignment: 3
@@ -2470,7 +2470,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: WOOOOOOO!
+  m_Text: RENS!
 --- !u!222 &1268357146
 CanvasRenderer:
   m_ObjectHideFlags: 0
